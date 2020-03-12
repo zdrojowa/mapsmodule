@@ -1,0 +1,49 @@
+maps:
+  path: /dashboard/maps
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@index
+  methods:
+    - GET
+  permission: MapsModule
+
+maps.ajax:
+  path: /dashboard/maps/ajax
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@ajax
+  methods:
+    - POST
+  permission: MapsModule
+
+maps.create:
+  path: /dashboard/maps/create
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@create
+  methods:
+    - GET
+  permission: MapsModule.add
+
+maps.store:
+  path: /dashboard/maps/store
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@store
+  methods:
+    - POST
+  permission: MapsModule.add
+
+maps.edit:
+  path: /dashboard/maps/{{hotel}}/edit
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@edit
+  methods:
+    - GET
+  permission: MapsModule.edit
+
+maps.update:
+  path: /dashboard/maps/{{hotel}}
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@update
+  methods:
+    - PUT
+    - PATCH
+  permission: MapsModule.edit
+
+maps.destroy:
+  path: /dashboard/maps/{{hotel}}
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@destroy
+  methods:
+    - DELETE
+  permission: MapsModule.delete

@@ -1,0 +1,7 @@
+name: MapsModule
+version: 1.1.0
+
+aclAnchor: MapsModule
+aclName: Mapy
+
+routePrefix: MapsModule

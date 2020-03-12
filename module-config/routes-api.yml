@@ -1,0 +1,5 @@
+maps.get:
+  path: /maps
+  controller: Selene\Modules\MapsModule\Http\Controllers\MapsController@getAll
+  methods:
+    - GET
