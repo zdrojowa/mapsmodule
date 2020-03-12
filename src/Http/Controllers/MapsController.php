@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller;
 use Selene\Modules\DashboardModule\ZdrojowaTable;
 use Selene\Modules\MapsModule\Http\Requests\HotelsLocalizationStoreRequest;
 use Selene\Modules\MapsModule\Models\HotelsLocalization;
-use Selene\modules\MapsModule\src\Support\HotelsStatusesEnum;
+use Selene\Modules\MapsModule\Support\HotelsStatusesEnum;
 
 /**
  * Class MapsController
