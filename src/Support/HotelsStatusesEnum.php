@@ -1,6 +1,6 @@
 <?php
 
-namespace Selene\modules\MapsModule\src\Support;
+namespace Selene\Modules\MapsModule\Support;
 
 use MyCLabs\Enum\Enum;
 
