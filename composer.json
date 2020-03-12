@@ -12,7 +12,7 @@
     "keywords": ["Laravel", "MapsModule"],
     "require": {
         "illuminate/support": "^6.0",
-        "zdrojowa/cms-kernel": "^2.0"
+        "zdrojowa/cms-kernel": "^2.0",
         "zdrojowa/dashboardmodule": "^2.0"
     },
     "require-dev": {
